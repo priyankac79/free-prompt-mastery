@@ -1,0 +1,67 @@
+.technique-page {
+    padding: 20px;
+    background: conic-gradient(#0c0220, #060210, #0c0220);
+    color: #fff;
+    min-height: calc(100vh - 40px);
+}
+
+.header h1 {
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.header img {
+    width: 34px;
+    margin-left: 10px;
+}
+
+.technique-page h2 {
+    font-size: 26px;
+    padding: 20px;
+    color: #9ff6f9;
+}
+
+.examples {
+    background: conic-gradient(#2a183e, #060016, #2a183e);
+    padding: 20px;
+    margin: 20px;
+    font-size: 18px;
+    border-left: 4px solid #25ffda;
+    line-height: 1.6;
+    border-radius: 8px;
+}
+
+.approach {
+    color: #FFD700;
+    font-weight: bold;
+}
+
+.examples p {
+    font-size: 15px;
+    font-weight: 200;
+}
+
+/* media query */
+
+@media (max-width: 720px) {
+    .header h1 {
+        font-size: 24px !important;
+    }
+
+    .header img {
+        width: 26px !important;
+    }
+
+    .technique-page h2 {
+        font-size: 20px;
+        padding: 10px 20px 0;
+    }
+
+    .approach {
+        font-size: 15px;
+    }
+
+    .examples p {
+        font-size: 12px;
+    }
+}

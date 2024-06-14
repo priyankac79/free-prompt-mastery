@@ -1,0 +1,54 @@
+.technique-page {
+	padding: 20px;
+	background: conic-gradient(#0c0220, #060210, #0c0220);
+	color: #fff;
+	min-height: calc(100vh - 40px);
+}
+
+.header h1 {
+	font-weight: 600;
+	font-size: 30px;
+}
+
+.header img {
+	width: 34px;
+	margin-left: 10px;
+}
+
+.questions {
+	background: conic-gradient(#2a183e, #060016, #2a183e);
+	padding: 20px;
+	margin: 20px;
+	font-size: 18px;
+	border-left: 4px solid #25ffda;
+	line-height: 1.6;
+	border-radius: 8px;
+}
+
+.question-type {
+	color: #ffd700;
+	font-weight: bold;
+    margin-bottom: 12px;
+}
+
+.questions strong {
+    color: #ffd700;
+}
+
+.questions p {
+    font-size: 15px;
+    font-weight: 200;
+    margin-bottom: 12px;
+}
+
+/* media query */
+
+@media (max-width: 720px) {
+	.question-type {
+		font-size: 16px;
+	}
+
+	.questions p {
+		font-size: 12px;
+	}
+}

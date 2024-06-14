@@ -1,0 +1,65 @@
+.technique-page {
+	padding: 20px;
+	background: conic-gradient(#0c0220, #060210, #0c0220);
+	color: #fff;
+	min-height: calc(100vh - 40px);
+}
+
+.header h1 {
+	font-weight: 600;
+	font-size: 30px;
+}
+
+.header img {
+	width: 34px;
+	margin-left: 10px;
+}
+
+.example-prompt {
+	background: conic-gradient(#2a183e, #060016, #2a183e);
+	padding: 20px;
+	margin: 20px;
+	border-left: 4px solid #25ffda;
+	font-size: 18px;
+	line-height: 1.6;
+	border-radius: 8px;
+}
+
+.example-prompt p {
+	margin: 10px 0;
+}
+
+.example-prompt strong {
+	color: #ffd700;
+	font-weight: bold;
+}
+
+.que {
+	font-size: 16px;
+	font-weight: 200;
+}
+
+.instruction {
+	font-size: 15px;
+	font-weight: 200;
+}
+
+/* media query */
+
+@media (max-width: 720px) {
+    .header h1 {
+        font-size: 24px !important;
+    }
+
+    .example-prompt {
+        font-size: 15px;
+    }
+
+    .que {
+        font-size: 13px;
+    }
+
+    .instruction {
+        font-size: 12px;
+    }
+}
