@@ -2,7 +2,7 @@
     padding: 20px;
     background: conic-gradient(#0c0220, #060210, #0c0220);
     color: #fff;
-    min-height: calc(100vh - 40px);
+    min-height: 100vh;
 }
 
 .header h1 {
